@@ -20,3 +20,26 @@
     margin: auto;
     align-items: center;
 }
+
+.menu-bar-item > ul {
+    display: flex;    
+    list-style: none;
+}
+
+.menu-bar-item > ul > li {
+    padding: 5px;
+    margin-right: 15px;
+
+}
+
+.menu-bar-item > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+.menu-bar-item > ul > li > a:hover {
+    color: blue;
+    font-weight: 600;
+}
